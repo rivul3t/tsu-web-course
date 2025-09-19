@@ -1,0 +1,12 @@
+.block {
+	width: 600px;
+	background: blue;
+	padding-left: 0.5px;
+	padding-top: 0px;
+	margin: auto;
+	font-size: 15px;
+	line-height: 1.2em;
+	font-weight: 100;
+	left: 1px;
+	color: white;
+}

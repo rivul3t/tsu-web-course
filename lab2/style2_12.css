@@ -1,0 +1,47 @@
+.list {
+	background: bisque;
+	width: 25%;
+	height: 80px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.block {
+	background-color: aqua;
+	width: 99%;
+	height: 28.6%;
+
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	float: right;
+	box-shadow: 0 0 0 2px limegreen;
+}
+
+.content-block {
+	width: 74.5%;
+	background: darkgrey;
+	float: left;
+	position: absolute;
+	left: 25.3%;
+	top: 0px;
+	font-size: 65%;
+	float: left;
+}
+@media (max-width: 1000px) {
+	.block {
+		height: 115%;
+
+	}
+	.list {
+		width: 25%;
+	}
+	.contentblock {
+		left: 0px;
+		top: 80px;
+		font-size: 60%;
+		width: 50%;
+	}
+}

@@ -1,0 +1,25 @@
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.item-wrap {
+	display: -webkit-flex;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	padding: 0;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 30px;
+	width: 100%;
+
+	background: green;
+}

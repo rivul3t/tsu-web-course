@@ -1,0 +1,16 @@
+.wrapper {
+	float:left;
+	background:aquamarine; 
+	width:130px;
+	height:70px;
+	margin:10px;
+	}
+	
+.clearbox {
+	background-color: bisque;
+	width: 100%;
+	position: fixed;
+	top: 120px;
+	padding: 0px;
+	
+}	

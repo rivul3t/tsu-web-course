@@ -1,0 +1,25 @@
+div {
+	display: inline-block;
+	background-color: aquamarine;
+	width: 180px;
+	height: 100px;
+	margin: 15px;
+}
+
+section {
+	width: 100%;
+	background-color: bisque;
+}
+
+@media (max-width: 800px) {
+	div {
+		width: 252px;
+		height: 127px;
+		font-size: 20px;
+	}
+
+	section {
+		font-size: 20px;
+		margin-top: 5px;
+	}
+}

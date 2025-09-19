@@ -1,0 +1,64 @@
+.list {
+	background: bisque;
+	width: 490px;
+	height: 80px;
+	position: absolute;
+	top: 0px;
+}
+
+.blockmain {
+	width: 99%;
+	min-width: 40%;
+	height: 89%;
+	box-shadow: 0 0 0 2px forestgreen;
+	background-color: aqua;
+	position: absolute;
+	padding-top: 0px;
+}
+
+.blocktext {
+	background: darkgrey;
+	width: 75%;
+
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-top: 0px;
+	font-size: 10px;
+}
+
+.blocktext2 {
+	overflow: hidden;
+	float: left;
+
+}
+
+img {
+	float: right;
+	width: 50%;
+	min-width: 10%;
+}
+
+@media (max-width: 900px) {
+	.blockmain {
+		height: 230%;
+	}
+
+	.list {
+		width: 25%;
+		height: max-content;
+		font-size: 19.7px;
+	}
+
+	.blocktext {
+		font-size: 19.7px;
+		padding: 0px;
+		height: max-content;
+	}
+
+	img {
+		margin: 0px;
+		padding: 0px;
+	}
+
+}
