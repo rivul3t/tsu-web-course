@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+div.news {
+    height: 100px;
+    width: 50%;
+    background: #b6f5f5;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+div.news:hover {
+    background: #ff5555;
+}
+
+h1 {
+    font-size: 14pt;
+}
+
+p {
+    margin: 5px 0;
+}
+
+button {
+    background: linear-gradient(#00ff00, #008e00);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+div.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.popupWin {
+    background-color: #e1ff73;
+    display: none;
+    width: 450px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+}
+
+div.popupWin h1 {
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px 0;
+}
+
+div.popupWin p {
+    padding: 15px;
+}
+
+#fade {
+    height: 100%;
+    width: 100%;
+    background: white;
+    opacity: 0.8;
+    display: none;
+    position: fixed;
+}
+
+hr {
+    width: 50%;
+    color: black;
+    margin: 20px 0;
+}
