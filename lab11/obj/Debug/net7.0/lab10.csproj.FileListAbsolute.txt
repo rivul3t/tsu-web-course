@@ -1,0 +1,9 @@
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.csproj.AssemblyReference.cache
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\rpswa.dswa.cache.json
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.AssemblyInfoInputs.cache
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.AssemblyInfo.cs
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.csproj.CoreCompileInputs.cache
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.MvcApplicationPartsAssemblyInfo.cache
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.RazorAssemblyInfo.cache
+C:\project\UCHEBA\WEB\lab10\obj\Debug\net7.0\lab10.RazorAssemblyInfo.cs

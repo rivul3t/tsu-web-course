@@ -1,0 +1,25 @@
+@{
+    ViewBag.Title = "PassUsingViewBag";
+    Layout = "_Layout";
+}
+<div class="container">
+    <div class="calc-content">
+        <span style="font-weight:600">PassUsingViewBag</span>
+        <div class="calc-block">
+            <b>Rand Value First : @ViewBag.First</b> <br />
+            <b>Rand Value Second : @ViewBag.Second</b> <br />
+            <b>Add</b> : <br />
+            @ViewBag.First + @ViewBag.Second = @ViewBag.Sum <br />
+            <b>Sub</b> : <br />
+            @ViewBag.First - @ViewBag.Second = @ViewBag.Sub <br />
+            <b>Mult</b> : <br />
+            @ViewBag.First * @ViewBag.Second = @ViewBag.Mult <br />
+            <b>Div</b> : <br />
+            @ViewBag.First / @ViewBag.Second = @ViewBag.Div <br />
+        </div>
+    </div>
+    <div class="bottom-line"></div>
+    <div class="copyright">
+        © 2019 - Backend1
+    </div>
+</div>

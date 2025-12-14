@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LSiG4qMxHp0=",
+  "success": true,
+  "projectFilePath": "C:\\project\\UCHEBA\\WEB\\lab13\\lab13\\lab13.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kollens\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.305\\microsoft.net.sdk.compilers.toolset.9.0.305.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "UIjjG/fhuP4=",
+  "success": true,
+  "projectFilePath": "C:\\project\\UCHEBA\\WEB\\lab11\\lab10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kollens\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.0\\microsoft.aspnetcore.jsonpatch.7.0.0.nupkg.sha512",
+    "C:\\Users\\kollens\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.0.nupkg.sha512",
+    "C:\\Users\\kollens\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\kollens\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\kollens\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\kollens\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.305\\microsoft.net.sdk.compilers.toolset.9.0.305.nupkg.sha512"
+  ],
+  "logs": []
+}

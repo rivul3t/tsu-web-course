@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - Backend1</title>
+        <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fff;
+            margin: 0;
+        }
+        .navbar {
+            background: #222;
+            color: #ccc;
+            width: 100%;
+            padding-left: 155px;
+        }
+        .navbar .brand {
+            color: #ccc;
+            font-size: 22px;
+            line-height: 60px;
+            display: inline-block;
+            padding-left: 0;
+            padding-right: 30px;
+            font-weight: 700; 
+        }
+        .navbar a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 60px;
+            display: inline-block;
+            padding: 0 18px;
+            font-weight: 400;
+        }
+        .navbar a:hover {
+            color: #fff;
+            font-weight: 400;
+        }
+        .container {
+            margin: 0;
+            padding: 15px 0 45px 155px; 
+        }
+        .content {
+          margin: 0;
+          font-size: 30pt;
+        }
+
+        .main-list {
+          margin: 12px 0 0 0;
+          font-size: 16pt;
+          text-decoration: none;
+        }
+
+        .main-list li {
+          margin-left: 30px;
+          margin-bottom: 6px;
+          text-decoration: none;
+        }
+
+        .main-list a {
+          margin-bottom: 6px;
+          text-decoration: none;
+        }
+
+        .calc-content {
+          margin-top: 0px;
+          font-size: 30pt;
+        }
+
+        .calc-block {
+          margin-top: 16px;
+          font-size: 15pt;
+        }
+        .bottom-line {
+            border-bottom: 1px solid #eee;
+            margin: 38px 0 0 0; 
+            width: 95%;
+        }
+        .copyright {
+            font-size: 15px;
+            color: #444;
+            margin-top: 30px;
+            margin-bottom: 45px;  
+        }
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <span class="brand">Backend1</span>
+        <a href="/">Home</a>
+    </div>
+    @RenderBody()
+</body>
+</html>

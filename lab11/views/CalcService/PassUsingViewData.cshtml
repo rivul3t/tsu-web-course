@@ -1,0 +1,25 @@
+@{
+    ViewBag.Title = "PassUsingViewData";
+    Layout = "_Layout";
+}
+<div class="container">
+    <div class="calc-content">
+        <span style="font-weight:600">PassUsingViewData</span>
+        <div class="calc-block">
+            <b>Rand Value First : @ViewData["First"]</b> <br />
+            <b>Rand Value Second : @ViewData["Second"]</b> <br />
+            <b>Add</b> : <br />
+            @ViewData["First"] + @ViewData["Second"] = @ViewData["Sum"] <br />
+            <b>Sub</b> : <br />
+            @ViewData["First"] - @ViewData["Second"] = @ViewData["Sub"] <br />
+            <b>Mult</b> : <br />
+            @ViewData["First"] * @ViewData["Second"] = @ViewData["Mult"] <br />
+            <b>Div</b> : <br />
+            @ViewData["First"] / @ViewData["Second"] = @ViewData["Div"] <br />
+        </div>
+    </div>
+    <div class="bottom-line"></div>
+    <div class="copyright">
+        © 2019 - Backend1
+    </div>
+</div>
